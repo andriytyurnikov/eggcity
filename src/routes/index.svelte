@@ -1,16 +1,19 @@
-<div class="flex flex-col justify-between min-h-full bg-sky-900 font-mono text-2xl text-slate-100 px-2 md:px-16 lg:px-32">
-  <header class="flex flex-col md:flex-row justify-between pt-4">
-    <div class="flex-initial w-full md:w-1/4 lg:w-1/4">
-      <h1 class="text-4xl">EggCity Network</h1>
+<div class="flex flex-col justify-between min-h-full bg-sky-900 font-mono text-2xl text-slate-100 px-2 md:px-4 lg:px-16 xl:px-24">
+  <header class="flex flex-col md:flex-row justify-between pt-4 h-auto md:h-1/2">
+
+    <div class="flex-initial w-full md:w-1/4 lg:w-1/4 text-center md:text-left">
+      <span class="text-4xl lg:text-6xl">EggCity Network</span>
     </div>
 
-    <nav class="flex-initial w-full md:w-3/4 lg:w-3/4 text-center md:text-right">
-      <a class="mx-2 uppercase" href="//eggcity.medium.com">blog</a>
-      <a class="mx-2 uppercase" href="//twitter.com/eggcity">twitter</a>
-      <a class="mx-2 uppercase" href="telegram://eggcity">telegram</a>
+    <nav class="flex-initial flex-row md:flex-col w-full md:w-3/4 lg:w-3/4 text-center md:text-right">
+      <ul class="list-none list-outside inline-block">
+        <li class="inline-block py-2"><a class="mx-2 uppercase" href="//eggcity.medium.com">blog</a></li>
+        <li class="inline-block py-2"><a class="mx-2 uppercase" href="//twitter.com/eggcity">twitter</a></li>
+        <li class="inline-block py-2"><a class="mx-2 uppercase" href="//t.me/eggcity">telegram</a></li>
+      </ul>
 
       <!-- pop-up window to send email , outlined -->
-      <button class="mx-2 border px-8 py-2 rounded-full uppercase">join the force &nearr;</button>
+      <button class="inline-block mx-2 px-8 py-2 border rounded-full uppercase">join the force &nearr;</button>
     </nav>
   </header>
 
