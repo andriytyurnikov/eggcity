@@ -2,3 +2,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body-background {
+  /* background-color: blue; */
+  background-size: auto, cover, cover;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-position: 50% 50%;
+  background-image:
+    url('/noise.png'),
+    url('/EggCity.png'),
+    linear-gradient(to bottom, rgba(112, 0, 255, 0.1311) 2.02%, rgba(244, 44, 32, 0.2277) 46%, rgba(31, 80, 138, 0.4899) 59%, rgba(18, 9, 44, 0.69) 96.48%);
+  background-blend-mode: overlay, overlay, darken;
+}
+
+.app-shell {}
+
+/* home page */
+/* header */
+.header {
+  @apply flex grow basis-1/2
+    flex-col md:flex-row
+    justify-start md:justify-between
+    h-1/2
+    pt-4;
+}
+
+.header-brand-wrapper {
+  @apply flex-initial
+    w-full md:w-1/4 lg:w-1/4
+    text-center md:text-left;
+}
+
+.header-brand-item {
+  @apply text-4xl lg:text-6xl;
+}
+
+.header-nav {
+  @apply flex-initial
+    flex-row md:flex-col
+    w-full md:w-3/4 lg:w-3/4
+    text-center md:text-right;
+}
+
+.header-nav-ul {
+  @apply inline-block list-none list-outside;
+}
+
+.header-nav-li {
+  @apply inline-block py-2;
+}
+
+
+.header-nav-link {
+  @apply mx-2 uppercase;
+}
+
+.header-nav-ctalink {}
+
+/* main */
+.main {
+  @apply flex grow flex-col justify-end md:justify-center items-center content-center;
+}
+
+.main-section-text-wrapper {}
+.main-section-cta {}
+
+.main-section-cta-button {}
+
+/* footer */
+.main-section-footer {
+  @apply grow-0 py-1 text-center text-sm text-slate-300 w-full;
+}
+
+/* contact modal form */
+
+/* quiz */
+
+/* quiz result */
